@@ -17,6 +17,8 @@ ext {
 
 apply plugin: 'groovy'
 
+sourceCompatibility = 1.8
+
 jenkinsPlugin {
     coreVersion = '2.145'                                            // Version of Jenkins core this plugin depends on.
     displayName = 'GitLab Seed Extension Jenkins plug-in'                             // Human-readable name of plugin.
