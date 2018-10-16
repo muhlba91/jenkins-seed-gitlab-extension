@@ -4,7 +4,7 @@ This image provides a (highly customized) extension for [GitLab](https://gitlab.
 
 ## Project Status
 
-[![Build Status](https://travis-ci.org/muhlba91/jenkins-seed-gitlab-extension.svg?branch=master)](https://travis-ci.org/muhlba91/rancher-compose-docker)
+[![Build Status](https://travis-ci.org/muhlba91/jenkins-seed-gitlab-extension.svg?branch=master)](https://travis-ci.org/muhlba91/jenkins-seed-gitlab-extension)
 
 ## Usage
 
