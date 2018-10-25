@@ -37,7 +37,7 @@ jenkinsPlugin {
 }
 
 dependencies {
-    compile "org.codehaus.groovy:groovy-all:${groovyVersion}"
+    providedCompile "org.codehaus.groovy:groovy-all:${groovyVersion}"
 
     jenkinsPlugins "org.jenkins-ci.plugins:seed:${seedVersion}@jar"
     providedCompile "org.jenkins-ci.plugins:seed:${seedVersion}@jar"
