@@ -165,6 +165,7 @@ class GitLabEndpoint extends CrumbExclusion implements UnprotectedRootAction {
         project.id = projectData.getString("id")
         project.name = projectData.getString("name")
         project.namespace = projectData.getString("namespace")
+        project.path = projectData.getString("path_with_namespace")
         project.gitSshUrl = projectData.getString("git_ssh_url")
         return project
     }
@@ -311,6 +312,6 @@ class GitLabEndpoint extends CrumbExclusion implements UnprotectedRootAction {
     }
 
     private String getProjectName(final GitLabProject project) {
-        return "${project.namespace}/${project.name}"
+        return project.path
     }
 }

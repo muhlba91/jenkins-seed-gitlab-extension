@@ -5,4 +5,5 @@ class GitLabProject {
     String name
     String gitSshUrl
     String namespace
+    String path
 }
